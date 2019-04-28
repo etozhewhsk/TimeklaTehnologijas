@@ -1,0 +1,168 @@
+body { 
+	font-family: 'Ubuntu', sans-serif;
+	background-color: white;
+
+ }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 55px;
+  width: 200px;
+  background-color: white;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.login-form a {
+	margin-left: 45px;
+}
+
+.login-form{
+	margin: 6px;
+}
+
+#logo {
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+#textt {
+	width: 180px;
+}
+
+#texttt {
+	width: 180px;
+}
+
+#submit {	
+	width: 184px;
+}
+
+.content {
+  margin-left: 200px;
+}
+
+.leftcolumn { 
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.leftcolumn h2 {
+	margin-top: 10px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card img {
+	width: 25%;
+	margin-left: 35px;
+}
+
+.card iframe {
+	margin-left: 25px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#header-text h1{
+	margin: 15px;
+	font-size: 50px;
+	text-align: center;
+}
+
+.header-buttons {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	
+}
+
+.header-buttons ul {
+	clear: left;
+	display: inline
+}
+
+.header-buttons li {
+	display: inline-block;
+	border-style: solid;
+	float: left;
+	list-style: none;
+	text-align: center;
+	background-color: white;
+	margin-right: -5px;
+	width: 140px;
+	line-height: 45px;
+}
+
+.header-buttons li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 1660px){
+	.header-buttons li {
+     	max-width:768px !important;
+     	width:100% !important;
+     	margin-bottom: 10px;
+	}
+
+	.header-buttons li a {
+		display:block !important;
+	}
+
+	.content {
+  		margin-left: 0px;
+	}
+
+	.leftcolumn { 
+    	padding: 0;
+  }
+}
+
+@media only screen and (max-width: 768px){
+	.header-buttons li {
+      max-width:600px !important;
+      width:100% !important;
+      margin-bottom: 10px;
+	}
+
+	.header-buttons li a {
+		display:block !important;
+	}
+
+	.sidebar {
+		display: none;
+	}
+
+	.content {
+  		margin-left: 0px;
+	}
+
+	.leftcolumn { 
+    	padding: 0;
+  }
+
+  .card iframe {
+	widht: 120px;
+	height: 120px;
+  }
+}
